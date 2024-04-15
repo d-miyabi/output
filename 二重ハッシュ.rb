@@ -1,0 +1,1 @@
+user_data.each { |u| puts u dig(:user, :profile, :name)}
